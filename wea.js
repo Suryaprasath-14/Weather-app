@@ -49,7 +49,7 @@ async function getWeather(cityName)
    dateField.innerText = `${exactDate} ${day} ${exactTime}`
    emojiField.src = url
    weatherField.innerText = condition
-   console.log("commit-3")
+   console.log("commit-4")
    } 
    
    catch (error) {
