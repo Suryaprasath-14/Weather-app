@@ -18,7 +18,7 @@ async function getWeather(cityName)
 {
    try {
       const response= await fetch (`https://api.weatherapi.com/v1/current.json?key=b2996c2c3b184ae3ab292517240702&q=${cityName}&aqi=no`)
-   
+   console.log(response)
    const weatherInfo= await response.json()
    console.log(weatherInfo)
 
